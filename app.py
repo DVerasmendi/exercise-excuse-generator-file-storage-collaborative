@@ -35,7 +35,7 @@ if len(articles) > 0 and len(adj) > 0 and len(noun) > 0  and len(action) > 0  an
 
     print("")
     print("This is the generated excuse: \n ")
-    #print("\x1b[6;30;42m → "+articles[rdm0 - 1] + " " + adj[rdm1 - 1] + " " + noun[rdm2 - 1] + " " + action[rdm3 - 1] + " " + possetion[rdm4 - 1] + " " + where[rdm5 - 1]+ "\x1b[0m\n\n")
+    print("\x1b[6;30;42m → "+articles[rdm0 - 1] + " " + adj[rdm1 - 1] + " " + noun[rdm2 - 1] + " " + action[rdm3 - 1] + " " + possetion[rdm4 - 1] + " " + where[rdm5 - 1]+ "\x1b[0m\n\n")
     print("https://www.google.com/search?q=joda+frases&oq=joda+frases&aqs=chrome..69i57.2444j0j4&sourceid=chrome&ie=UTF-8")
     print("YODA: El miedo es el camino hacia el Lado Oscuro; el miedo lleva a la ira, la ira lleva al odio, el odio lleva al sufrimiento")
 else:
