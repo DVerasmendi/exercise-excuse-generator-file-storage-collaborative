@@ -35,7 +35,8 @@ if len(articles) > 0 and len(adj) > 0 and len(noun) > 0  and len(action) > 0  an
 
     print("")
     print("This is the generated excuse: \n ")
-    print("\x1b[6;30;42m → "+articles[rdm0 - 1] + " " + adj[rdm1 - 1] + " " + noun[rdm2 - 1] + " " + action[rdm3 - 1] + " " + possetion[rdm4 - 1] + " " + where[rdm5 - 1]+ "\x1b[0m\n\n")
+    #print("\x1b[6;30;42m → "+articles[rdm0 - 1] + " " + adj[rdm1 - 1] + " " + noun[rdm2 - 1] + " " + action[rdm3 - 1] + " " + possetion[rdm4 - 1] + " " + where[rdm5 - 1]+ "\x1b[0m\n\n")
+    print("El miedo es el camino hacia el Lado Oscuro; el miedo lleva a la ira, la ira lleva al odio, el odio lleva al sufrimiento")
 else:
     # we can't continue, throw error to the user
     print("Missing some data from the files")
